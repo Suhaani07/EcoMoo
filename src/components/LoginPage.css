@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;;
+  }
+  
+  body {
+    background-color: #f9eee4;
+  }
+  
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9eee4;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  .header {
+    width: 100%;
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .logo {
+    font-size: 2em;
+    color: #4F7A44;
+    margin-left: 10px;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+    position: absolute;
+    top: 45%; /* Center vertically */
+    left: 55%; /* Move a little to the right */
+    transform: translate(-50%, -50%); /* Center horizontally */
+  }
+  
+  .login-box {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 40px;
+    width: 400px;
+    height:500px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+  }
+  
+
+
+  .login-cat {
+    position: absolute;
+    top: -100px;
+    right: -40px;
+    transform: rotate(15deg); /* Adjust the degree as needed */
+}
+
+.cat-img {
+    width: 170px;
+}
+  
+  .login-title {
+    color: #4F7A44;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+  }
+  
+  .login-form .input-field {
+    width: 100%;
+    padding: 1em;
+    margin: 15px 0;
+    border-radius: 30px;
+    font-size: 1em;
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4F7A44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin: 3rem 0;
+  }
+  
+  .login-button:hover {
+    background-color: #3E5F34;
+  }
+  
+  .register-text {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9em;
+  }
+  
+  .register-text a {
+    color: #4F7A44;
+    text-decoration: none;
+  }
+  
+  .eco-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #d2dea9;
+    border-radius: 20px;
+    padding: 20px;
+    width: 600px;
+    text-align: center;
+    height: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    margin: 0 auto; /* Center the eco-section horizontally */
+    top: 14rem;
+    left: 6rem; /* Center the eco-section vertically */
+    transform: translateY(-50%);
+    
+}
+
+.ecomoo-text {
+    font-size: 1.5em;
+    color: #4a5d10;
+    font-style: italic; /* Make the text italic */
+    transform: rotate(-5deg); /* Slightly curve the text */
+    position: absolute;
+    top: -50px; /* Adjust the position as needed */
+    left: 450px; /* Adjust the position as needed */
+    font-family: 'Nunito', sans-serif; /* Apply the Nunito font */
+}
+
+.hippo-img {
+    width: 250px; /* Increase the size of the hippo image */
+    position: absolute;
+    top: -150px; /* Adjust the position to stand atop the eco-section */
+}
+
+.moo-text {
+    position: absolute;
+    top: -20px; /* Adjust the position to be beside the hippo image */
+    left: 400px; /* Adjust the position to be beside the hippo image */
+    font-size: 1em;
+    color: #4a5d10;
+    font-weight: bold; /* Make the text bold */
+}
+  .eco-title {
+    font-size: 4em;
+    color: #4a5d10;
+    margin: 0;
+    font-family: 'Nunito', sans-serif; /* Apply the Nunito font */
+    font-weight:bold;
+  }
+  
+  .eco-subtitle {
+    color: #4a5d10;
+    font-size: 1em;
+  }
+  
+  .footer .grass {
+    background-image: url("grass.png"); /* Add decorative grass image */
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    margin-top: 20px;
+  }
+  .input-field {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 500px; /* Make the input field rounded */
+    border: 1px solid #ccc;
+    background-color: #f0f0f0; /* Light grey background */
+    font-size: 1em;
+    color: #c7c7c7;
+    outline: none;
+    box-sizing: border-box;
+    
+}
+
+.input-field::placeholder {
+    color: transparent; /* Hide the placeholder text */
+}
+
+.placeholder{
+    color: #686868;
+    font-size: 0.7em;
+    text-align:left;
+    margin-left: 10px;
+}
+
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+#three-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    background-color: transparent; /* Ensure the background is transparent */
+}
+
+.walking-hippo {
+    position: fixed;
+    bottom: 0;
+    width: 50px; /* Adjust size as needed */
+    height: auto;
+    animation: walk 20s linear infinite; /* Slower animation */
+}
+
+@keyframes walk {
+    50% {
+        left: 0; /* Start from the left */
+        transform: scaleX(1); /* Normal orientation */
+    }
+    0% {
+        left: calc(100% - 50px); /* Move to the right */
+        transform: scaleX(1); /* Normal orientation */
+    }
+    100% {
+        transform: scaleX(-1); /* Flip to face left */
+    }
+    50.01% {
+        left: calc(5% - 50px); /* Move back to the left */
+        transform: scaleX(-1);
+        left:0; /* Flipped */
+    }
+}
