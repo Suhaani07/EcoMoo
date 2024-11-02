@@ -9,7 +9,6 @@ The EcoMoo app is an innovative mobile platform designed to promote environmenta
 - [Setup Instructions](#setup-instructions)
 - [Usage](#usage)
 - [Screenshots](#screenshots)
-- [Code Snippets](#code-snippets)
 - [Technologies Used](#technologies-used)
 - [Contributing](#contributing)
 - [License](#license)
@@ -77,23 +76,17 @@ In summary, EcoMoo combines creativity, technology, and community engagement to 
 ## Screenshots
 
 ### Login Page
-![Login Page](LoginPage.png)
+![Login Page](/public/LoginPage.png)
 
 ### Home Page
-![Home Page](HomePage.png)
+![Home Page](/public/HomePage.png)
 
 ### Introduction Page
-![Introduction Page](IntroductionPage.png)
+![Introduction Page](/public/IntroductionPage.png)
 
 ### Main Page
-![Main Page](MainPage.png)
+![Main Page](/public/MainPage.png)
 
-## Code Snippets
-
-### MainPage.js
-```javascript
-// Your MainPage component code here
-```
 
 ## Technologies Used
 
