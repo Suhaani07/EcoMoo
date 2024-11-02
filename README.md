@@ -77,16 +77,16 @@ In summary, EcoMoo combines creativity, technology, and community engagement to 
 ## Screenshots
 
 ### Login Page
-![Login Page](path/to/login-page-screenshot.png)
+![Login Page](LoginPage.png)
 
 ### Home Page
-![Home Page](path/to/home-page-screenshot.png)
+![Home Page](HomePage.png)
 
 ### Introduction Page
-![Introduction Page](path/to/introduction-page-screenshot.png)
+![Introduction Page](IntroductionPage.png)
 
 ### Main Page
-![Main Page](path/to/main-page-screenshot.png)
+![Main Page](MainPage.png)
 
 ## Code Snippets
 
